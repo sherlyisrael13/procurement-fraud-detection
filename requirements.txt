@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+faker
+shap
+fastapi
+uvicorn
+streamlit
+joblib
+sqlalchemy
+pydantic
+plotly
+seaborn
+matplotlib
