@@ -213,7 +213,7 @@ if page == "📊 Dashboard Overview":
 elif page == "🔎 Predict New Order":
     page_header("Predict New Order", "Submit a purchase order for real-time fraud analysis")
 
-    st.markdown('<div class="form-card">', unsafe_allow_html=True)
+    st.markdown('<div style="background:#ffffff; border-radius:12px; padding:1.5rem; border:1px solid #eaeaea; margin-bottom:1rem;">', unsafe_allow_html=True)
     col1, col2 = st.columns(2)
     with col1:
         order_id   = st.text_input("Order ID",    value="PO-NEW-001")
