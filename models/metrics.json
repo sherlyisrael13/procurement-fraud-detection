@@ -1,0 +1,12 @@
+{
+  "precision": 0.606,
+  "recall": 0.57,
+  "f1": 0.587,
+  "total_orders": 10000,
+  "total_flagged": 500,
+  "risk_breakdown": {
+    "Low": 301,
+    "Medium": 104,
+    "High": 95
+  }
+}
