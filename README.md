@@ -159,21 +159,17 @@ streamlit run dashboard/app.py
 - Dashboard: http://localhost:8501
 
 ---
+## Project Status
 
-## Interview Notes
-
-**Why anomaly detection instead of supervised classification?**  
-Fraud labels are rare or unavailable in real procurement systems. Unsupervised anomaly detection is practical and production-realistic.
-
-**Why Isolation Forest?**  
-Efficient, scalable, works well on tabular data, less training-data dependent than supervised models.
-
-**What does the feedback loop do?**  
-Reduces false positives, improves retraining quality, and adapts to organization-specific procurement behavior over time.
-
-**Limitations?**  
-Anomaly detection can flag legitimate rare transactions. SHAP explanations are approximations. Synthetic data may not fully reflect real ERP behavior.
+✅ Data generation  
+✅ Feature engineering  
+✅ Model training + SHAP explainability  
+✅ Risk scoring  
+✅ FastAPI backend  
+✅ Streamlit dashboard  
+✅ Human-in-the-loop feedback  
 
 ---
 
-*This project is part of my final year portfolio — CSE (AIML), Batch 2027.*
+*Built by Josephine Sherly P | CSE (AIML) Final Year | Batch 2027*  
+*GitHub: [@sherlyisrael13](https://github.com/sherlyisrael13)*
