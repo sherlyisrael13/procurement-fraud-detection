@@ -415,7 +415,7 @@ elif page == "📋 Flagged Orders":
             pred_df = pd.DataFrame(data['anomalies'])
             st.markdown("<br>", unsafe_allow_html=True)
             st.dataframe(
-                pred_df.style.applymap(
+                pred_df.style.map(
                     lambda v: f"color: {RISK_COLORS.get(v,'#333')}; font-weight:600"
                     if v in RISK_COLORS else '',
                     subset=['risk_level'] if 'risk_level' in pred_df.columns else []
