@@ -157,7 +157,6 @@ if page == "📊 Dashboard Overview":
 
 elif page == "🔎 Predict New Order":
     page_header("Predict New Order", "Submit a purchase order for real-time fraud analysis")
-    st.markdown('<div style="background:#ffffff;border-radius:12px;padding:1.5rem;border:1px solid #eaeaea;margin-bottom:1rem;">', unsafe_allow_html=True)
     col1, col2 = st.columns(2)
     with col1:
         order_id = st.text_input("Order ID", value="PO-NEW-001")
@@ -169,7 +168,6 @@ elif page == "🔎 Predict New Order":
         approval_lag_hours = st.number_input("Approval Lag (hours)", min_value=0, value=24)
         approved_on_weekend = st.selectbox("Approved on Weekend?", [0,1], format_func=lambda x: "Yes — Weekend" if x==1 else "No — Weekday")
         vendor_frequency = st.number_input("Vendor Frequency (past orders)", min_value=1, value=10)
-    st.markdown('</div>', unsafe_allow_html=True)
     if st.button("🔍 Analyse Order"):
         payload = {
             "order_id": order_id, "vendor": vendor, "department": department,
