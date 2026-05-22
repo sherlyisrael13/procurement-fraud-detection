@@ -169,6 +169,20 @@ streamlit run dashboard/app.py
 ✅ Streamlit dashboard  
 ✅ Human-in-the-loop feedback  
 
+## Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### Predict New Order — Critical Risk Detection
+![Predict Result](screenshots/predict_result.png)
+
+### Flagged Orders
+![Flagged Orders](screenshots/flagged_orders.png)
+
+### Model Insights — SHAP Feature Importance
+![Model Insights](screenshots/model_insights.png)
+
 ---
 
 *Built by Josephine Sherly P | CSE (AIML) Final Year | Batch 2027*  
